@@ -12,7 +12,7 @@ A full-stack web application designed to manage and track daily tasks.
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/thisisthanu/Fullstack_Todo.git](https://github.com/thisisthanu/Fullstack_Todo.git)
+   git clone(https://github.com/thisisthanu/Fullstack_Todo.git)
    ```
 2. Activate your virtual environment.
 3. Install the required dependencies:
