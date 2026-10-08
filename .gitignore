@@ -1,0 +1,4 @@
+.venv/
+fastapienv/
+__pycache__/
+testdb.db
