@@ -5,10 +5,10 @@ from fastapi import APIRouter, Depends, HTTPException, status, Request
 from passlib.handlers import bcrypt
 from starlette import status
 from fastapi.security import OAuth2PasswordRequestForm ,OAuth2PasswordBearer
-from ..database import SessionLocal
+from database import SessionLocal
 from fastapi import APIRouter, Depends
 from pydantic import BaseModel
-from ..models import Users
+from models import Users
 from passlib.context import CryptContext
 from jose import jwt, JWTError
 from fastapi.templating import Jinja2Templates

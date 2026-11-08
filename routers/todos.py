@@ -5,9 +5,9 @@ from sqlalchemy.orm import Session
 
 from fastapi import APIRouter, Depends, HTTPException , Path, Request, status
 from starlette import status
-from ..models import Todos
-from ..database import SessionLocal
-from .auth import get_current_user, templates
+from models import Todos
+from database import SessionLocal
+from auth import get_current_user, templates
 from starlette.responses import RedirectResponse
 from fastapi.templating import Jinja2Templates
 
